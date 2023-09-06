@@ -1,0 +1,27 @@
+Setup :
+#Download and install Anaconda
+https://www.anaconda.com/download#downloads
+
+#Install Library used for this course
+#Install Anaconda Prompt Command line tool
+
+#Install YML File to create envorment
+cd Desktop
+cd Open_CV
+conda env create -f cvcourse_windows.yml
+# To activate this environment, use
+#
+#     $ conda activate python-cvcourse
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+# to activate env run
+conda activate python-cvcourse
+
+# Run Local server 
+jupyter-lab
+http://localhost:8888/?token=b84dd7124d3b0be8d2f541f38643e0c0fdff5eb7d98a84fa
+
+
